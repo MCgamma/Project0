@@ -12,10 +12,11 @@
     width: 550px;
     border-radius: 350px;
     border: 1px solid rgb(209, 202, 202);
-    padding: 0px 0px 0px 10px;
+    padding-left: 45px;
     font-size: 16px;
-    background-image: url('../images/google_pic.jpg') no-repeat left;   /*you must fix this*/
-    background-size: 200px;
+    background: url('../images/search_pic.jpg') no-repeat left;   /*you must fix this*/
+    background-position: 3% 50%;
+    background-size: 19px;
 }
 %sdow {
     box-shadow: 0 0 10px rgb(160, 158, 158);
