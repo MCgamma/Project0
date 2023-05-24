@@ -1,0 +1,74 @@
+header {
+  position: absolute;
+  right: 5%;
+  top: 1%;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 5%;
+}
+
+#model {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+#qtexti:hover, #qtexti:focus {
+  border: none;
+  outline: none;
+}
+
+#forma {
+  border: 1px solid rgb(209, 202, 202);
+  height: 46px;
+  width: 577px;
+  border-radius: 350px;
+  position: relative;
+  background: url("../images/search_pic.jpg") no-repeat left;
+  background-position: 3% 50%;
+  background-size: 17px;
+}
+
+#forma:hover, #forma:focus {
+  box-shadow: 0 0 10px rgb(160, 158, 158);
+}
+
+@media only screen and (max-width: 615px) {
+  #forma {
+    width: 93vw;
+  }
+}
+#qtexti {
+  border: none;
+  width: 88%;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(0%, -50%);
+  font-size: 16px;
+  text-indent: 10%;
+  background: transparent;
+}
+
+#search {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translate(0%, -50%);
+}
