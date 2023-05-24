@@ -61,3 +61,26 @@ input[type="submit"]#inp_g:hover, input[type="submit"]#inp_l:hover{
 #snip {
     line-height: 0.85;
 }
+
+header{
+    position: absolute;
+    right: 5%;
+    top: 1%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5%;    
+}
