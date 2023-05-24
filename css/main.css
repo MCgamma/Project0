@@ -1,0 +1,53 @@
+.google_buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  text-align: center;
+}
+
+#qtext {
+  text-align: left;
+  height: 44px;
+  width: 550px;
+  border-radius: 350px;
+  border: 1px solid rgb(209, 202, 202);
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
+  background-image: url("../images/google_pic.jpg") no-repeat left; /*you must fix this*/
+  background-size: 200px;
+}
+
+input[type=text]#qtext:focus, input[type=text]#qtext:hover {
+  box-shadow: 0 0 10px rgb(160, 158, 158);
+}
+
+input[type=text]#qtext:focus {
+  outline: none;
+}
+
+#inp_l, #inp_g {
+  height: 35px;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
+  background-color: rgba(214, 214, 214, 0.275);
+  font-weight: 500;
+  color: rgb(26, 26, 26);
+}
+
+#inp_g {
+  width: 110px;
+}
+
+#inp_l {
+  width: 130px;
+}
+
+input[type=submit]#inp_g:hover, input[type=submit]#inp_l:hover {
+  border: 1px solid rgb(167, 161, 161);
+}
+
+#snip {
+  line-height: 0.85;
+}
