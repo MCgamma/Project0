@@ -64,7 +64,7 @@ header {
   top: 1%;
 }
 
-ul li {
+.headli {
   display: inline-block;
 }
 
