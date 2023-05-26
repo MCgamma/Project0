@@ -25,6 +25,8 @@ ul li a:hover {
   list-style-type: none;
   line-height: 40px;
   display: inline-block;
+  border: 1px solid blue;
+  margin-top: 15px;
 }
 
 #formul1 {
@@ -33,6 +35,14 @@ ul li a:hover {
 
 #formul2 {
   float: right;
+}
+
+#find {
+  padding-left: 20px;
+  color: rgb(46, 46, 46);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid red;
 }
 
 .adv {
@@ -59,6 +69,8 @@ ul li a:hover {
 #formdiv {
   border: 1px solid black;
   width: 600px;
+  position: relative;
+  top: 150px;
 }
 
 @media only screen and (max-width: 815px) {
